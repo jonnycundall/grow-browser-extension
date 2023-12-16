@@ -7,7 +7,12 @@
     "default_popup": "hello.html",
     "default_icon": "hi.png"
   },
-  "background": {
-    "service_worker": "service-worker.js"
-  }
+  "content_scripts": [
+    {
+      "js": ["content.js"],
+      "matches": [
+        "https://developer.chrome.com/docs/extensions/*"
+      ]
+    }
+  ]
 }
