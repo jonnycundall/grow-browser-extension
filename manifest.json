@@ -9,7 +9,9 @@
   },
   "content_scripts": [
     {
-      "js": ["content.js"],
+      "js": [
+        "lib/jquery.min.js",
+      "content.js"],
       "matches": [
         "https://developer.chrome.com/docs/extensions/*"
       ]

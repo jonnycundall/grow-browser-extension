@@ -1,3 +1,6 @@
+
+
 const article = document.querySelector("article");
 
-console.log('foo')
+console.log($('article'))
+
