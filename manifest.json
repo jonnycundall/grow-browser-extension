@@ -9,12 +9,11 @@
   },
   "content_scripts": [
     {
-      "js": [
-        "lib/jquery.min.js",
-      "content.js"],
-      "matches": [
-        "https://developer.chrome.com/docs/extensions/*"
-      ]
+      
+        "matches": ["<all_urls>"],
+        "js": ["content.js"],
+        "css": ["style.css"]
+      
     }
   ]
 }
